@@ -1,0 +1,15 @@
+.button {
+    display: block !important;
+    margin: 5px;
+}
+
+.button img {
+    height: 100%;
+    float: right;
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.button span {
+    top: 25%;
+}
